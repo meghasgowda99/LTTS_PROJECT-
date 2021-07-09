@@ -1,3 +1,0 @@
-all: game.c
-    gcc -o all game.c
-	
