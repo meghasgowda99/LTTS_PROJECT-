@@ -23,17 +23,17 @@ int Scissorpaperrock(char you, char comp){
     // rp
     
 
-    if(you=='s' && comp=='p'){
+    if(you=='p' && comp=='s'){
         return -1;
     }
-    else if(you=='p' && comp=='s'){
+    else if(you=='s' && comp=='p'){
         return 1;
     }
 
-    if(you=='s' && comp=='r'){
+    if(you=='r' && comp=='s'){
         return 1;
     }
-    else if(you=='r' && comp=='s'){
+    else if(you=='s' && comp=='r'){
         return -1;
     }
 
